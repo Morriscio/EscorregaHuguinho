@@ -14,7 +14,7 @@ public class OtoLevelChange : MonoBehaviour
             if (nextLevel != null)
                 SceneManager.LoadScene(nextLevel);
             else
-                SceneManager.LoadScene("Menu");
+                SceneManager.LoadScene(0);
         }
     }
 }
